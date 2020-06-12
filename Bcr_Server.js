@@ -54,6 +54,7 @@ const saltRounds = 10;
 
 var mongoose = require('mongoose/');
 mongoose.set('useFindAndModify', false);
+mongoose.set('useUnifiedTopology', true);
 
 var serveStatic = require('serve-static')
 
